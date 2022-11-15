@@ -1,0 +1,66 @@
+.container{
+    padding: 15px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "header content"
+    "sdb content";
+}
+h1{
+    margin-left: 40px;
+}
+.container div{
+    
+    padding: 20px;
+}
+.container div h2{
+    border-bottom: 1px dashed black;
+}
+.header{
+    border: black solid 1px;
+    background-color: white;
+    grid-area:header ;
+    margin-bottom: 20px;
+    
+}
+.sdb{
+    border: black solid 1px;
+    background-color: white;
+    grid-area:sdb ;
+}
+.content{
+    border: black solid 1px;
+    margin-top: 20px;
+    background-color:#FFFBE4;
+    grid-area:content ;
+    height: 210px;
+    width: 300px;
+}
+body{
+    background: #FFF1D6;
+    margin: 0 auto;
+    width: 960px;
+}
+h1{
+    color: #7E9F19
+}
+.img-1{
+    width: 180px;
+    height: 105px;
+    border: 1px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+.img-2{
+    width: 290px;
+    height: 100px;
+    border: 1px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+.contents{
+    float: left;
+    width: 660px;
+}
